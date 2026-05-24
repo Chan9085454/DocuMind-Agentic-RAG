@@ -76,7 +76,7 @@ if prompt:
             f"{BACKEND_URL}/chat",
             params={"query": prompt},
             headers=headers,
-            timeout=180
+            timeout=150
         )
 
         if res.status_code == 200:
