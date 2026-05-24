@@ -5,7 +5,7 @@ from fastapi import HTTPException, Depends
 from fastapi.security import OAuth2PasswordBearer
 import hashlib
 
-SECRET_KEY = "2bc289e4a6fdfe738046ae6193245404a462efc144dd43a134614e996f56e231"
+SECRET_KEY = "your_secret_key"
 ALGORITHM = "HS256"
 
 pwd_context = CryptContext(schemes=["pbkdf2_sha256", "bcrypt_sha256", "bcrypt"], deprecated="auto")
