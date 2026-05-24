@@ -2,6 +2,7 @@
 Built an Agentic Retrieval-Augmented Generation (RAG) chatbot for multi-format document question answering using LangChain, ChromaDB, and Ollama, implementing an agent-based architecture (Planner, Retrieval, Reasoning, and Response Agents) for intelligent document understanding, semantic retrieval, and context-aware response generation.
 
 ## 🚀 Features
+
 ### 📂 Multi-Format Document Support
 Upload and process:
 
@@ -88,6 +89,7 @@ Final Answer
 - pandas
 
 ## 📁 Project Structure
+
 DocuMind-AI/
 │── app/
 │   ├── agents/
@@ -123,6 +125,7 @@ DocuMind-AI/
 
 
 ## 🔄 Workflow
+
 ### Step 1: Upload Document
 Document is parsed and chunked.
 
@@ -142,6 +145,7 @@ Agents collaborate to generate response.
 Context-grounded answer returned to user.
 
 ## 🎯 Key Highlights
+
 ✅ Multi-format document support  
 ✅ Agentic AI workflow  
 ✅ Semantic search with ChromaDB  
@@ -151,6 +155,7 @@ Context-grounded answer returned to user.
 ✅ Reduced hallucination via RAG
 
 ## 📌 Future Improvements
+
 - Multi-user authentication
 - Chat history memory
 - Conversation summarization
