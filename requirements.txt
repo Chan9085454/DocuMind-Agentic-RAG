@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+streamlit
+sentence-transformers
+chromadb
+pdfplumber
+python-docx
+pandas
+langdetect
+sqlalchemy
+asyncpg
+passlib
+python-jose
+psycopg2-binary
+langchain-ollama
